@@ -1,0 +1,58 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "../protos/RectangleArena.proto"
+EXTERNPROTO "../protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.40402968960248153 -0.6761148028194348 0.6161402302464588 4.742985036621926
+  position -0.8189246438198846 1.4379332778657241 3.003152501479801
+}
+TexturedBackground {
+  skyColor [
+    0.6 0 0
+  ]
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.01 0 0.05
+  floorSize 1.5 1.5
+  floorTileSize 0.25 0.25
+}
+E-puck {
+  hidden linearVelocity_0 -0.04131643914991319 -0.06211028379248148 -2.1065469406215085e-08
+  hidden angularVelocity_0 -0.004335563034778909 0.002884063302076559 1.302987603776679e-09
+  hidden translation_1 0 0.025999999999999992 0.02
+  hidden rotation_1 0 -1 0 4.172797234669854
+  hidden linearVelocity_1 -0.04130202228086853 -0.06208860349053775 1.2813989226937978e-11
+  hidden angularVelocity_1 3.1044302525677865 -2.0651009713730524 8.47399822214988e-08
+  hidden translation_2 0 -0.025999999999999992 0.02
+  hidden rotation_2 0 -1 0 1.2375479912366325
+  hidden linearVelocity_2 -0.04130201523890113 -0.06208860824306059 -1.0814987971728757e-11
+  hidden angularVelocity_2 3.1044303083696367 -2.065100887491128 -8.391141427327952e-08
+  translation -0.5867234236141514 0.33352489905730787 0.049936042842108265
+  rotation -0.000349503442949476 -0.00018727549538759695 0.9999999213876131 -2.1577904952273883
+  name "e-puck(1)"
+  controller "e-puck-robot"
+  controllerArgs [
+    ""
+  ]
+}
+RectangleArena {
+  translation 0.01 0 0.02
+  name "rectangle arena(1)"
+  floorSize 0.75 0.75
+  wallHeight 0.15
+}
+RectangleArena {
+  translation -0.17 0.58 0.02
+  name "rectangle arena(2)"
+  floorSize 0.375 0.375
+  floorTileSize 0.25 0.25
+  wallThickness 0.02
+  wallHeight 0.15
+}
